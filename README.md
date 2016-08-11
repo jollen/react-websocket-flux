@@ -12,7 +12,7 @@ npm install react-websocket-flux --save
 ## Quickstart
 
 ```
-import { WebsocketStore, WebsocketActions } from 'react-websocket-view';
+import { WebsocketStore, WebsocketActions } from 'react-websocket-flux';
 
 export class MyApp extends Component {
     constructor(props, context) {
@@ -42,6 +42,13 @@ export class MyApp extends Component {
     }
 }
 ```
+
+## Usage
+
+1. Import ```WebsocketStore``` and ```WebsocketActions``` from ```react-websocket-flux```.
+2. Add ```onMessage``` callback method in your React component. For ES6, please bind ```this``` to ```onMessage```.
+3. Invoke ```WebsocketActions.connect``` method to connect to Websocket server.
+4. Invoke ```WebsocketStore.addMessageListener``` to register ```onMessage``` listener to Flux store
 
 ## License
 
