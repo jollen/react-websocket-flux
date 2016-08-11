@@ -11,6 +11,8 @@ npm install react-websocket-flux --save
 
 ## Quickstart
 
+Use react-websocket-flux to add Websocket feature to your React component.
+
 ```
 import { WebsocketStore, WebsocketActions } from 'react-websocket-flux';
 
@@ -41,6 +43,15 @@ export class MyApp extends Component {
         );
     }
 }
+```
+
+Use your component with ```server``` props.
+
+```
+render(
+	<MyApp server="wss://wot.city/object/testman/viewer" />,
+    document.getElementById('content')
+);
 ```
 
 ## Usage
