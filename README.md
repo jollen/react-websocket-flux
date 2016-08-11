@@ -1,5 +1,5 @@
 
-*react-websocket-flux*: Building real-time React application over Websocket with Flux architecture
+*react-websocket-flux*: Building React application with Websocket with Flux architecture.
 
 ## Install
 
