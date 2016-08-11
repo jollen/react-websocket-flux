@@ -56,6 +56,8 @@ render(
 
 ## Usage
 
+How to implement your React component with react-websocket-flux.
+
 1. Import ```WebsocketStore``` and ```WebsocketActions``` from ```react-websocket-flux```.
 2. Add ```onMessage``` callback method in your React component. For ES6, please bind ```this``` to ```onMessage```.
 3. Invoke ```WebsocketActions.connect``` method to connect to Websocket server.
