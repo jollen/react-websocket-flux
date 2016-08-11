@@ -1,5 +1,5 @@
 
-*react-websocket-flux*: Building React application with Websocket with Flux architecture.
+*react-websocket-flux*: Building React application with Websocket by Flux architecture.
 
 ## Install
 
@@ -45,7 +45,7 @@ export class MyApp extends Component {
 }
 ```
 
-Use your component with ```server``` props.
+Use your React component with ```server``` props.
 
 ```
 render(
